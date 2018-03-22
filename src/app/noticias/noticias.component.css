@@ -1,0 +1,37 @@
+.noticia-mae{
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.noticia{
+    margin: 40px 20px;
+    display: inline-block;
+    cursor: pointer;
+    max-width: 350px;
+    transition: all 0.3s;
+}
+.noticia:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.14);
+    transform: translate(-2px, -2px) 
+}
+.card-title{
+    position: relative;
+    margin-bottom: 20px;
+}
+.card-title::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 2px;
+    background: rgb(27, 183, 255);
+}
+.card-body{
+    min-height: 250px;
+}
+
+a{
+    color: black;
+}

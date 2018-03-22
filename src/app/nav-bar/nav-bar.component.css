@@ -1,0 +1,13 @@
+
+.nav-tabs{
+    background-color:#161616;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+
+.nav-item{
+    cursor: auto;
+    color:#fff;
+    
+}
