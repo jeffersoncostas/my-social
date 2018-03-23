@@ -22,7 +22,7 @@ export const slideInOutAnimation =
                 // -400% is required instead of -100% because the negative position adds to the width of the element
                 
                 transform: 'translateX(100%)',
-                opacity: 0,
+                opacity: 1,
                 // start with background opacity set to 0 (invisible)
                 backgroundColor: 'rgba(0, 0, 0, 0)'
             }),
@@ -42,9 +42,8 @@ export const slideInOutAnimation =
             animate('.5s ease-in-out', style({
                 // transition the right position to -400% which slides the content out of view
                 transform: 'translateX(100%)',
-                opacity: 0,
+                opacity: 1,
                 // transition the background opacity to 0 to fade it out
-                backgroundColor: 'rgba(0, 0, 0, 0)'
             }))
         ])
     ]);

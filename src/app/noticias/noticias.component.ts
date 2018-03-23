@@ -10,10 +10,10 @@ import { SlideOutAnimation } from '../_animations/index';
   selector: 'app-noticias',
   templateUrl: './noticias.component.html',
   styleUrls: ['./noticias.component.css'],
-  animations:[ SlideOutAnimation ]
-  //host:{ '[@SlideOutAnimation]':'' }
+  animations:[ SlideOutAnimation ],
+  host: { '[@SlideOutAnimation]': '' }
 })
-export class NoticiasComponent implements OnInit {
+export class NoticiasComponent {
   listaNoticias: Noticias[];
 
   constructor(private NoticiaService:NoticiasService) { }

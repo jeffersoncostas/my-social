@@ -1,4 +1,5 @@
-<div class="noticia-mae" [@SlideOutAnimation]= "listaNoticias.length" >
+
+<div class="noticia-mae">
   <a *ngFor="let noticia of listaNoticias" routerLink="/noticia/{{noticia.id}}">
 
     <div class="card text-center noticia">

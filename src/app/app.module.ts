@@ -11,12 +11,14 @@ import { PaginaNoticiaComponent } from './pagina-noticia/pagina-noticia.componen
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     NoticiasComponent,
-    PaginaNoticiaComponent
+    PaginaNoticiaComponent,
+
   ],
   imports: [
     BrowserModule,
